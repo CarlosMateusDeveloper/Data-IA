@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="![banner](https://github.com/user-attachments/assets/959d4035-28d4-49de-88c2-61109b1101a9)
-" alt="Banner Mateus Gonçalves" width="800"/>
+ [<img src="https://github.com/user-attachments/assets/959d4035-28d4-49de-88c2-61109b1101a9" alt="Banner Mateus Gonçalves" width="800"/>](![banner](https://github.com/user-attachments/assets/f2ab67c7-21e6-4d13-b795-bc0f2b9e99c7)
+)
+
 </p>
 
 <h1 align="center">MATEUS GONÇALVES</h1>
