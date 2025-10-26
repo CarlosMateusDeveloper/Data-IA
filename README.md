@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="[LINK_PARA_SEU_BANNER.png]" alt="Banner Mateus Gonçalves" width="800"/>
+  <img src="![banner](https://github.com/user-attachments/assets/959d4035-28d4-49de-88c2-61109b1101a9)
+" alt="Banner Mateus Gonçalves" width="800"/>
 </p>
 
 <h1 align="center">MATEUS GONÇALVES</h1>
