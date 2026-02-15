@@ -6,4 +6,4 @@ def extract(comprovante):
     df = df.drop([3,6,7,8,9,10])
     return df
    
-   
+    
