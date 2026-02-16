@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 
 def extract(comprovante):
     df = pd.read_csv(comprovante)
