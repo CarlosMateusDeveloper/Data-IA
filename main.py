@@ -1,15 +1,16 @@
-from open import extract
-from add_sheet import add_sheet
+from extract import extract
+from add_excel import add_excel
 
 
 def main():
     comprovante = './comprovante.csv'
-    sheet_file = './planilha.xlsx'
-    tab = 'Sheet1'
+    sheet_file = './Pasta1.xlsx'
+    tab = 'Planilha1'
     
     try:
-        extract(comprovante)
-        add_sheet(sheet_file, tab, comprovante)
+        df = extract(comprovante)
+        print(df)
+        add_excel(sheet_file, tab, comprovante)
     except Exception as e:
         print(f"Erro: {e}")
         
