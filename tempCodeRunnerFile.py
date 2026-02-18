@@ -1,1 +1,1 @@
-df = df.drop([])
+df = df.loc[:,['Data','Hora','Valor', 'Tipo de Transferencia', 'Nome'] ]
