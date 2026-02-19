@@ -1,13 +1,10 @@
-from extract import extract
-import pandas as pd
 from openpyxl import Workbook, load_workbook
 
-def add_excel( sheet_file, tab, comprovante):
-    df = extract(comprovante)
+
+def add_excel( sheet_file, tab, df):
     book = load_workbook(sheet_file)
     ws = book[tab]
-    
-    for i in df.values:
-        ws.append(i)
-    
+    for row in df.itertuples(index=False):
+        ws.append(tuple(row))
+
     book.save(sheet_file)

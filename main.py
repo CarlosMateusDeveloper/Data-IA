@@ -4,13 +4,12 @@ from add_excel import add_excel
 
 def main():
     comprovante = './comprovante.csv'
-    sheet_file = './Pasta1.xlsx'
+    sheet_file = './testeautomation.xlsx'
     tab = 'Planilha1'
     
     try:
         df = extract(comprovante)
-        print(df)
-        add_excel(sheet_file, tab, comprovante)
+        add_excel(sheet_file, tab, df)
     except Exception as e:
         print(f"Erro: {e}")
         
